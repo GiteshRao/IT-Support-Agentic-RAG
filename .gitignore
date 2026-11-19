@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Data
+data/audit.db
+uploads/
+
+# License (excluded per user request)
+LICENSE
+
+# IDE
+.vscode/
