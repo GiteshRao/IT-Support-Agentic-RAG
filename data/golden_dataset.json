@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "How do I connect to the company VPN from home?",
+    "expected_answer": "Install the company VPN client, connect using company credentials, and enable MFA. VPN access is required for remote work.",
+    "relevant_sources": ["company_it_handbook.md", "service_desk_runbook.md"],
+    "category": "kb",
+    "source_type": "private_kb"
+  },
+  {
+    "id": 2,
+    "question": "Can IT support ask me to share my MFA code?",
+    "expected_answer": "No. Employees must never share passwords or MFA codes with support personnel.",
+    "relevant_sources": ["company_it_handbook.md"],
+    "category": "kb",
+    "source_type": "private_kb"
+  },
+  {
+    "id": 3,
+    "question": "What is our password reset policy?",
+    "expected_answer": "Passwords must be at least 12 characters with mixed case, numbers, and symbols. Reset via self-service portal or help desk.",
+    "relevant_sources": ["company_it_handbook.md", "service_desk_runbook.md"],
+    "category": "kb",
+    "source_type": "private_kb"
+  },
+  {
+    "id": 4,
+    "question": "Hello!",
+    "expected_answer": "A friendly greeting response.",
+    "relevant_sources": [],
+    "category": "direct",
+    "source_type": "direct"
+  },
+  {
+    "id": 5,
+    "question": "What software can I install on my company laptop?",
+    "expected_answer": "Only approved software from the company software catalog. Unauthorized installations are prohibited.",
+    "relevant_sources": ["company_it_handbook.md"],
+    "category": "kb",
+    "source_type": "private_kb"
+  },
+  {
+    "id": 6,
+    "question": "How do I report a lost or stolen laptop?",
+    "expected_answer": "Immediately contact IT help desk and security team. Remote wipe may be initiated.",
+    "relevant_sources": ["company_it_handbook.md", "service_desk_runbook.md"],
+    "category": "kb",
+    "source_type": "private_kb"
+  },
+  {
+    "id": 7,
+    "question": "What is the latest Microsoft Teams outage guidance?",
+    "expected_answer": "External web information about current Teams outage status and mitigation steps.",
+    "relevant_sources": [],
+    "category": "web",
+    "source_type": "web_search"
+  },
+  {
+    "id": 8,
+    "question": "How do I set up email on my phone?",
+    "expected_answer": "Configure company email using the mobile device management portal and approved mail app.",
+    "relevant_sources": ["company_it_handbook.md", "service_desk_runbook.md"],
+    "category": "kb",
+    "source_type": "private_kb"
+  }
+]
